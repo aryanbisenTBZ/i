@@ -1,0 +1,15 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+    background-color: pink;
+    color: palevioletred;
+}
+
+h1 {
+    font-size: 86px; 
+    font-weight: 800;
+}
+
+ol {
+    font-size: 40px; 
+}
+
