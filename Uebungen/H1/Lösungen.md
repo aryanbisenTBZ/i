@@ -1,0 +1,1 @@
+1. An der Webseite ändert sich nichts. Es schaut nur was in den HTML-Tags ist. Wenn sich Leertasten ausserhabl des Tags befinden werden diese ignoriert.

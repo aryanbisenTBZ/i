@@ -1,1 +1,1 @@
-Wenn man die Seite neu lädt, werden alle geladene Elemente angezeigt 
+Wenn man die Seite neu lädt, werden alle geladene Elemente angezeigt.  
