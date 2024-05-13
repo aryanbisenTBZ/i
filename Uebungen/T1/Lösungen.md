@@ -18,4 +18,4 @@ Sind sie nun tatsächlich bei ihrem ausgewählten Element gelandet?
 Ja.
 Wenn nein wieso nicht?
 Weil die Entwickler-Tools standardmässig den gesamten HTML-Code der Seite anzeigt.
->>>>>>> 6b04c61e2bfb194b1be23d5c62983453e4cf4396
+
