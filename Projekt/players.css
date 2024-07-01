@@ -83,35 +83,33 @@ main {
 }
 
 .button {
-  display: inline-block;
   padding: 10px 20px;
   background-color: #934c11;
   color: white;
-  text-decoration: none;
   border-radius: 5px;
-  transition: background-color 0.3s;
 }
+
 .navbar {
   background-color: #333;
-  padding: 10px;
+  padding: 3px;
   display: flex;
   justify-content: space-between;
 }
 
 .navbar img {
-  height: 80px;
+  height: 55px;
+  width: 110px;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
   font-size: 30px;
-  margin-right: 20px; /
+  font-weight: 500;
+  margin-right: 20px; 
 }
-
 
 .navbar a.button {
   background-color: rgb(255, 106, 0);
-  padding: 10px 20px;
   border-radius: 5px;
 }
