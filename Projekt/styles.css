@@ -13,7 +13,6 @@ body {
   padding: 0;
 }
 
-/* Header styles */
 header {
   position: fixed;
   top: 0;
@@ -25,7 +24,6 @@ header {
   z-index: 1000;
 }
 
-/* Main content styles */
 main {
   padding: 20px;
   max-width: 800px;
@@ -33,7 +31,7 @@ main {
   text-align: center;
 }
 
-/* Card styles */
+
 .card {
   background-color: #2a2a2a;
   border: 1px solid #444444;
@@ -66,14 +64,12 @@ main {
   transform: scale(1.05);
 }
 
-/* Welcome section styles */
 .welcome {
   text-align: center;
   max-width: 800px;
-  margin: 120px auto 40px; /* Adjust top margin to center vertically */
+  margin: 120px auto 40px;
 }
 
-/* Button styles */
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -84,7 +80,6 @@ main {
   transition: background-color 0.3s;
 }
 
-/* Navbar styles */
 .navbar {
   background-color: #333333;
   display: flex;
@@ -112,7 +107,6 @@ main {
   padding: 10px 20px;
 }
 
-/* Players page styles */
 .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -130,7 +124,7 @@ main {
   width: 300px;
   transition: transform 0.2s;
 }
-/* Contact form styles */
+
 .contact-container {
   max-width: 800px;
   margin: 20px auto;
@@ -140,7 +134,7 @@ main {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* Contact form styles */
+
 .contact-container {
   max-width: 800px;
   margin: 20px auto;
@@ -153,6 +147,7 @@ main {
 
 .form-group {
   margin-bottom: 8px;
+  
 }
 
 .form-group label {
@@ -207,9 +202,17 @@ main {
   margin: 0;
 }
 
-
-
 .contact-container h1 {
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+.forgot-password {
+  color: #ffffff; 
+  text-decoration: none;
+  margin-left: 10px; 
+}
+
+.forgot-password:hover {
+  text-decoration: underline; 
 }

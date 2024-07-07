@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="homepage.html"><img src="images/Logo.png" alt="Logo" /></a>
+        <div class="navbar-links">
+          <a href="homepage.html">Home</a>
+          <a href="aboutus.html">About</a>
+          <a href="login.html">Login</a>
+          <a href="registration.html" class="button">Register</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="contact-container">
+      <h1>Login</h1>
+      <form action="login_confirmation.html" method="post">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <button type="submit" class="login-submit">Login</button>
+          <a href="resetpassword.html" class="forgot-password"
+            >Forgot Your Password?</a
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
